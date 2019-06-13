@@ -1,0 +1,39 @@
+
+body{
+  background-color: white;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+main {
+  flex: 1 0 auto;
+}
+h1{
+  color: black;
+  font-size: 4rem;
+}
+h5{
+  color:black;
+  font-size: 2rem;
+}
+.pie{
+    background-color: #263238;
+}
+.lista{
+  display:flex;
+}
+.icons{
+  color: white;
+}
+.items{
+  display: flex;
+  justify-content: flex-end;
+}
+header, main, footer {
+  padding-left: 300px;
+}
+@media only screen and (max-width : 992px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}

@@ -1,0 +1,36 @@
+html{
+    font-size: 62.5;
+}
+body{
+    background-color: black;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+main {
+   flex: 1 0 auto;
+ }
+h1{
+    color: white;
+}
+input{
+    color: white;
+}
+.barra{
+    background-color:#fff9c4;
+}
+.pie{
+    background-color: #263238;
+}
+.boton{
+    padding-bottom: 1rem;
+}
+.boton2{
+  align-items: center;
+}
+i{
+  color: white;
+}
+.icono-cuenta{
+  padding-top: 2rem;
+}
